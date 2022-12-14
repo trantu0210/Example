@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;}
+
+.abc {
+    text-align: center;
+}
+/* dem hinh ra giua: display:block  margin 0 auto
+c2: display: inline-block  lam 1 the div abc boc hinh anh lai, roi lam them .abc{ text-align:center}*/
+.image {
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+
+}
+
+.tram{
+    width: 30rem;
+    height: 30rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.pseudo{
+    color: black;
+    font-size: 5rem;
+}
+/*.pseudo:hover {
+    color: orange;
+}
+
+.pseudo:active {
+    color: red;
+}*/
+
+.pseudo:visited{
+    color: purple;}
+.box {
+    width: 200px;
+    height: 300px;
+    border: 4px solid yellow;
+    padding: 10px;
+    margin: 15px;
+   border-radius: 10px;
+    text-align: center;
+    background-color: #ffa400;
+
+}
+.ngoctu {
+   /*tao 3 dong co dau 3 cham tu mot doan van ban rat dai */
+    display: -webkit-box;
+    max-width: 50rem;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+    .ngoc {
+        display: -webkit-box;
+    max-width: 10rem;
+
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: green;
+    }
+    .tramtu {
+        width: 100vh;
+        height: 100vh;
+        
+        background: no-repeat center right / cover;
+    }
+    .tutram {
+        width: 100vh;
+        height: 100vh;
+        background-image: url(./theme\ xanh.jpg);
+        background-repeat: no-repeat 
+     ;
+     background-position: center right;
+     background-size: cover;
+     
+
+    }
+    .aa {
+        width: 400px;
+        height: 400px;
+        background-image: url(./theme\ xanh.jpg);
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .link {
+        text-decoration: none;
+        padding: 10px 50px;
+        text-align: center;
+        color: white;
+        background-color: purple;
+        margin-left: 80px;
+    }
+    .link:hover {
+        color: red;
+        background-color: green;
+    }
+    .link-rou {
+        border-radius: 4px;
+    }.link-rar {
+        border-radius: 20px;
+    }
+   
+
